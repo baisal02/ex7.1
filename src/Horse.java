@@ -1,6 +1,14 @@
 public class Horse extends Animal {
-    public Horse(int weight, int age, String gender, String nickName) {
+    private String color;
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public Horse(int weight, int age, String gender, String nickName,String color) {
         super(weight, age, gender, nickName);
+        this.color=color;
     }
 
 }

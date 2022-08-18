@@ -12,8 +12,8 @@ public class Main {
         Sheep sheep2 = new Sheep(80,3,"male","baa3");
         Sheep[] sheeps = {sheep,sheep1,sheep2};
 
-        Horse horse = new Horse(1200,7,"male","Burushka");
-        Horse horse1 = new Horse(600,7,"male","YuliyCesar");
+        Horse horse = new Horse(1200,7,"male","Burushka","goldy-brown");
+        Horse horse1 = new Horse(600,7,"male","YuliyCesar","brown");
         Horse [] horses = {horse,horse1};
 
         Sheep []sheeps1={sheep};
@@ -23,6 +23,5 @@ public class Main {
         Farm farm1 = new Farm("cansas.1/4",cows,horses,sheeps,"Jonathan Kent");
         Farm farm2 = new Farm("cansas.1/4",cows1,horses1,sheeps1,"Clark Kent");
 
-        System.out.println(farm1.getHorses()[0].toString());
     }
 }
